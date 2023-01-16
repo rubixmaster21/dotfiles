@@ -164,7 +164,7 @@ bindsym $mod+o open
 
 exec_always --no-startup-id picom --config ~/.config/picom.conf --experimental-backend
 exec_always --no-startup-id feh --bg-fill ~/cabinet/Wallpapers/city.jpg
-exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
+exec_always --no-startup-id fish $HOME/.config/polybar/launch_polybar.sh
 
 #hide borders
 
