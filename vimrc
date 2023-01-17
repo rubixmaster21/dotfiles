@@ -9,6 +9,8 @@ call plug#end()
 
 set backspace=indent,eol,start
 
+set conceallevel=2
+
 set hidden
 set history=50
 set incsearch
